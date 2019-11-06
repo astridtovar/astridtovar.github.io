@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.css" media="screen,projection">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portafolio - Astrid Tovar</title>
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <header class="navbar-fixed">
+            <!-- <nav id="nav">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo"><img src="img/profile2.png" alt="profile"></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="sass.html">Acerca de Mi</a></li>
+                        <li><a href="badges.html">Trabajos</a></li>
+                        <li><a href="collapsible.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav> -->
+
+
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo"><img src="img/profile2.png" alt="profile"></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#Acerca">Acerca de Mi</a></li>
+                        <li><a href="#Trabajos">Trabajos</a></li>
+                        <li><a href="#Contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="#Acerca">Acerca de Mi</a></li>
+                <li><a href="#Trabajos">Trabajos</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+
+        </header>
+
+        <div class="center-align title-principal">
+            <img src="img/profile2.png" alt="profile">
+            <h1>Análista y Desarrolladora de Software</h1>
+        </div>
+
+        <div id="Acerca" class="acerca">
+            <i class="large material-icons">face</i>
+            <h3>Acerca de Mi</h3>
+            <p>
+                Soy una desarrolladora web ubicada en Bogotá. Apasionada por la creación de piezas dinámicas y el diseño web, siempre dispuesta y entusiasmada por nuevos retos y aprendizajes.
+            </p>
+        </div>
+
+        <div id="Trabajos" class="trabajos">
+            <div class="parallax-container">
+                <div class="parallax"><img src="img/parallax2.jpg"></div>
+                <h3>Mis Trabajos</h3>
+                <div class="item-trabajo">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block">
+                            <img class="activator" src="img/work-tooink.png" alt="tooink">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4"><i class="small material-icons" title="Ver detalles">expand_less</i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title">TOOINK<i class="material-icons right">close</i></span>
+                            <p>Aplicativo Web para la busqueda de tatuadores, agendamiento y reserva de citas.</p>
+                            <p>Desarrollado usando POO, MVC, PHP, PostgreSQL.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-trabajo">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block">
+                            <img class="activator" src="img/work-sys-gap.png" alt="sysgap">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4"><i class="small material-icons" title="Ver detalles">expand_less</i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title">SYS GAP<i class="material-icons right">close</i></span>
+                            <p>Aplicativo de escritorio desarrollado para el calculo y la gestión de precios y apoyos de los dispositivos moviles. Esto fue desarrollado para Tigo Colombia en mi etapa practica.</p>
+                            <p>Desarrollado usando POO, MVC, PHP, MySQL y CanvasJS.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-trabajo">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block">
+                            <img class="activator" src="img/work-sexshop.png" alt="sexshop">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4"><i class="small material-icons" title="Ver detalles">expand_less</i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title">Sex Shop Bogotá Online<i class="material-icons right">close</i></span>
+                            <p>Página Web desarrollada para la marca Gotica Virtual.</p>
+                            <p>Desarrollado usando HTML5 y CSS.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Contacto" class="acerca contacto">
+            <h3>Contacto</h3>
+            <p>Actualmente estoy disponible para trabajar independientemente bajo el nombre de mi proyecto personal <b>StridCam</b>.</p>
+            <a class="waves-effect waves-light btn" href="https://wa.me/573057231937"><i class="material-icons left">chat</i> Escribeme</a>
+
+        </div>
+
+        <footer>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2019 - Todos los derechos reservados
+                    <a class="grey-text text-lighten-4 right" href="https://github.com/astridtovar" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.parallax').parallax();
+            $('.sidenav').sidenav();
+            $(window).scroll(function(event) {
+                var scroll = $(window).scrollTop();
+                if (scroll > 1) {
+                    $('nav').css('background-color', 'rgba(0, 0, 0, 0.8)');
+                } else {
+                    $('nav').css('background-color', 'transparent');
+                }
+            });
+
+        });
+    </script>
+</body>
+
+</ht

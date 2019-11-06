@@ -1,0 +1,98 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-image: url(../img/background1.jpg);
+    width: 100%;
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+}
+
+nav {
+    /* padding: 1.5%; */
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.brand-logo img {
+    width: 30%;
+    border-radius: 50%;
+    margin-left: 6%;
+    margin-top: 3%;
+}
+
+.title-principal {
+    margin: auto;
+    padding: 8% 10% 10% 10%;
+    color: #FFF;
+}
+
+.title-principal h1 {
+    font-size: 5vw;
+    margin-top: 2px;
+}
+
+.acerca {
+    height: 300px;
+    background-color: #FFF;
+    padding: 2% 32% 25% 32%;
+    text-align: center;
+}
+
+.acerca h3 {
+    margin-top: 2px;
+}
+
+.acerca p {
+    font-size: 1.5vw;
+}
+
+.parallax-container {
+    text-align: center;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.parallax {
+    filter: grayscale(1.5) opacity(80%);
+}
+
+.item-trabajo {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    width: 30%;
+    float: left;
+    margin: 0% 1.6%;
+}
+
+.item-trabajo img {
+    width: 100%;
+}
+
+.card {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.card .card-content {
+    padding: 0px;
+}
+
+.card .card-reveal {
+    background-color: #000;
+    color: #FFF;
+}
+
+.contacto {
+    padding: 5%;
+}
+
+.contacto p {
+    font-size: 14px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #FFF;
+    padding: 2%;
+}
